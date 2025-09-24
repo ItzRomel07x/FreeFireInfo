@@ -51,7 +51,7 @@ def get_account_credentials(region: str) -> str:
     if r == "IND":
         return "uid=4079966644&password=BE955F6D9FD49DD35CAE40F96566065E48AE5A65419AD537384837D4500F1372"
     elif r in {"BR", "US", "SAC", "NA"}:
-        return "uid=3994234698&password=7DCCCC6B5EBCAC8824DB11D329738C6DD935B1A9D79E1AC08A431E3D78228AF2"
+        return "uid=3836739354&password=F092F7EE8026D2F00EB1E48FEBC3702631B755E16F273998AA85C41D34D28F71"
     else:
         try:
             with open("accounts.txt", "r") as f:
