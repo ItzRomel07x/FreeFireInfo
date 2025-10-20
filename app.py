@@ -49,9 +49,9 @@ async def json_to_proto(json_data: str, proto_message: Message) -> bytes:
 def get_account_credentials(region: str) -> str:
     r = region.upper()
     if r == "IND":
-        return "uid=4079966644&password=BE955F6D9FD49DD35CAE40F96566065E48AE5A65419AD537384837D4500F1372"
+        return "uid=4059582022&password=CC732DCC82ADAE49D8AB7CEAA83592D3489471FFEF937E3EC99CE5F31E5F6074"
     elif r in {"BR", "US", "SAC", "NA", "BD"}:
-        return "uid=3836739354&password=F092F7EE8026D2F00EB1E48FEBC3702631B755E16F273998AA85C41D34D28F71"
+        return "uid=3813945139&password=B5333A38857AF8F9C4FD2DBEB60F96AAF018AD43CE0D3D232E186ED5821936DD"
     else:
         try:
             with open("accounts.txt", "r") as f:
